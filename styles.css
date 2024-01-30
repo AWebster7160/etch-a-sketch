@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -14,14 +15,10 @@ body {
     max-width: 640px;
     min-height: 640px;
     max-height: 640px;
-    min-height: 640px;
+    min-width: 640px;
 }
 .grid > * {
     border-color: black;
     border: solid;
     border-width: 1px;
-    min-width: 38px;
-    min-height: 38px;
-    max-height: 38px;
-    min-height: 38px;
 }
