@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 0;
+    border: solid;
+    border-color: red;
+    border-width: 2px;
+    align-content: baseline;
+    max-width: 640px;
+    min-height: 640px;
+    max-height: 640px;
+    min-height: 640px;
+}
+.grid > * {
+    border-color: black;
+    border: solid;
+    border-width: 1px;
+    min-width: 38px;
+    min-height: 38px;
+    max-height: 38px;
+    min-height: 38px;
+}
